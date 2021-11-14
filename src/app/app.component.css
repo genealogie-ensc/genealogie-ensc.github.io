@@ -1,0 +1,116 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  height: 10%;
+  background-color: #212425;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.nom-famille-bleu,
+.nom-famille-rouge,
+.nom-famille-vert,
+.nom-famille-orange,
+.nom-famille-jaune {
+  margin: auto;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.nom-famille-vert {
+  color: green;
+}
+.nom-famille-bleu {
+  color: blue;
+}
+.nom-famille-rouge {
+  color: red;
+}
+.nom-famille-orange {
+  color: orange;
+}
+.nom-famille-jaune {
+  color: yellow;
+}
+
+.node {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BUTTON */
+
+.btn-vert,
+.btn-jaune,
+.btn-rouge,
+.btn-orange,
+.btn-bleu {
+  width: 12em;
+  height: 3em;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+  margin: auto;
+}
+
+button span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-vert {
+  border: 2px solid #095228;
+}
+.btn-bleu {
+  border: 2px solid #07277d;
+}
+.btn-rouge {
+  border: 2px solid #e71837;
+}
+.btn-orange {
+  border: 2px solid orange;
+}
+.btn-jaune {
+  border: 2px solid #fede00;
+}
+
+.btn-vert:hover {
+  transition: 1s ease-in-out;
+  background: #095228;
+}
+.btn-bleu:hover {
+  transition: 1s ease-in-out;
+  background: #07277d;
+}
+.btn-rouge:hover {
+  transition: 1s ease-in-out;
+  background: #e71837;
+}
+.btn-orange:hover {
+  transition: 1s ease-in-out;
+  background: orange;
+}
+.btn-jaune:hover {
+  transition: 1s ease-in-out;
+  background: #fede00;
+}
+
+.btn-orange:hover span {
+  transition: 1s ease-in-out;
+  color: black;
+}
+.btn-jaune:hover span {
+  transition: 1s ease-in-out;
+  color: black;
+}
